@@ -1,0 +1,202 @@
+/* v1.0 | 20080212 CSS reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+	font-size: 62.5%;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+a:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* APP stylin */
+
+body{
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	background-color: white;
+	color: #2c2c2c;
+	
+}
+h1.logo {
+	width: 250px;
+	height: 50px;
+	overflow: hidden;
+	margin-left: 160px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+h1.logo a{
+	display: block;
+	width: 250px;
+	height: 50px;
+	background: transparent url(../img/logo.png) no-repeat left bottom;
+	text-indent: -30em;
+}
+h1.logo a:hover{
+	background-position: left top;
+}
+.wrap{
+	width: 840px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#topbar{
+	color: #ece6ff;
+	width: 100%;
+	line-height: 50px;
+	background-color: #2f2e34;
+	margin-bottom: 50px;
+	font-size: 12px;
+}
+	.top_nav{
+		top: 0;
+		position: absolute;
+		right: 0;
+	}
+	.top_nav a{
+		color: #999;
+	}
+	.top_nav a:hover{
+		color: #fff;
+	}
+	.top_nav li{
+		float: left;
+		margin-left: 15px;
+	}
+	
+#content{
+	width: 520px;
+}
+
+#content p{
+	margin: 10px 0;
+	font-size: 1.2em;
+	line-height: 1.8em;
+}
+
+.box{
+	margin: 0 -25px;
+}
+.box h2{
+	margin-bottom: 10px;
+	padding-left: 25px;
+}
+.form_box{
+	padding: 20px 25px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	background: #f6e988 url(../img/div.png) repeat-x center 62px;
+}
+
+#content > h2{
+	text-align: center;
+	font-size: 3em;
+	font-weight: normal;
+	margin: 50px 0;
+}
+
+.form_box label.topper{
+	display: block;
+	
+	
+}
+.form_box input[name=url]{
+ display: block;
+ width: 99%;
+}
+.form_box form fieldset{
+
+}
+
+	.form_box form fieldset > div{
+		margin-top: 25px;
+	}
+	.form_box form fieldset > div label{
+		margin-right: 10px;
+	}
+	.form_box form fieldset > div input[type=submit]{
+		float: right;
+	}
+	
+.form_box{
+	
+}
+
+.form_box textarea{
+	width: 520px;
+	max-width: 520px;
+	height: 100px;
+}
+
+.success .form_box{
+	background-image: none;
+}
+
+sup{
+	font-size: 0.8em !important;
+	vertical-align: super;
+	color: #c1a852;
+}
+
+.add{
+	display: block;
+	line-height: 23px;
+	text-align: right;
+}
+
+#footer{
+	margin-top: 50px;
+	text-align: right;
+}
+
+#footer p{
+	margin: 10px 0;
+	color: #666;
+}
+
+

@@ -1,0 +1,61 @@
+
+#content p sub{
+	vertical-align: sub;
+	margin:20px 0 -10px;
+	display: block;
+}
+h3, .faq dt{
+	margin: 35px 0 15px;
+	font-size: 1.6em;
+ 	font-weight: normal;
+}
+h4{
+	margin: 20px 0 15px;
+	font-size: 1.4em;
+ 	font-weight: normal;
+}
+
+.faq{
+
+}
+
+.faq dl{
+	width: 520px;
+	margin: 0 auto;
+	line-height: 1.8em;
+}
+
+.faq dt{
+
+}
+
+.faq dd{
+	margin: 10px 0;
+	font-size: 1.2em;
+	text-align: justify;
+}
+
+.api code{
+	margin: 10px 0 10px -10px;
+	padding: 10px;
+	background-color: #7f827e;
+	color: #fff;
+	font-size: 1.2em;
+	display: block;
+	line-height: 19px;
+	overflow: hidden;
+	overflow-x: auto;
+}
+
+	.api code a{
+		color: #edefef;
+	}
+	
+	.api code a:hover{
+		color: #fff;
+	}
+	
+	.api h3{
+		border-top: 1px solid #999;
+		padding-top: 20px;
+	}
